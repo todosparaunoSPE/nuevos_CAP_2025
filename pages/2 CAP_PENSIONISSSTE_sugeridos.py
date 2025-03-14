@@ -13,6 +13,8 @@ import os
 # Título de la aplicación
 st.title("Visualización de Datos y Mapa Interactivo")
 
+st.sidebar.write("Nombre: Javier Horacio Pérez Ricárdez")
+
 # 1. Cargar automáticamente el archivo PENSIONISSSTE_Y_MODELO.csv
 @st.cache_data  # Cachear para mejorar el rendimiento
 def load_data():
