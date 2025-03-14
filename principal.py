@@ -1,16 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 14 14:30:08 2025
 
-@author: jperezr
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 12 10:16:36 2025
-
-@author: jperezr
-"""
 
 import streamlit as st
 
