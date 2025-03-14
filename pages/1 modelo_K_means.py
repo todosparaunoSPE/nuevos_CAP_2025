@@ -35,6 +35,17 @@ with st.sidebar:
     """)
     st.write("Desarrollado por: **Javier Horacio Pérez Ricárdez**")  # Reemplaza "Tu Nombre" con tu nombre real.
 
+
+# Agregar botón para descargar K_means_CAP.pdf
+    with open("K_means_CAP.pdf", "rb") as pdf_file:
+        st.download_button(
+            label="Descargar reporte (PDF)",
+            data=pdf_file,
+            file_name="K_means_CAP.pdf",
+            mime="application/pdf"
+        )
+
+
 # Selectbox para filtrar por ESTADO
 estado_seleccionado = st.selectbox('Selecciona un estado', df['ESTADO'].unique())
 
