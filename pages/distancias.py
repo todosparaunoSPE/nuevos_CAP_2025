@@ -14,6 +14,8 @@ from geopy.distance import geodesic
 # Título de la aplicación
 st.title("Distancias de los minicipos de un Estado a la ubicación propuesta por K_Means")
 
+st.sidebar.write("Nombre: Javier Horacio Pérez Ricárdez")
+
 # Cargar archivo automáticamente
 @st.cache_data
 def load_data():
