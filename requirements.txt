@@ -4,3 +4,4 @@ folium
 scikit-learn
 numpy
 scipy
+geopy
