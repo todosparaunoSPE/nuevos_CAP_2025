@@ -15,20 +15,13 @@ Created on Wed Mar 12 10:16:36 2025
 import streamlit as st
 
 # Título de la aplicación
-st.title("CAP de las AFORE y Nuevas Ubicaciones de CAP para PENSIONISSSTE")
+st.title("CAP de las AFORE y Nuevas Ubicaciones de CAP para PENSIONISSSTE 2025")
 
 # Sidebar con información
 st.sidebar.title("Información")
 st.sidebar.write("Nombre: Javier Horacio Pérez Ricárdez")
 
-# Botón para descargar el archivo en el sidebar
-with open("enoe2025_02.pdf", "rb") as file:
-    btn = st.sidebar.download_button(
-        label="Descargar ENOE 2025-02",
-        data=file,
-        file_name="enoe2025_02.pdf",
-        mime="application/pdf"
-    )
+
 
 # Estilo CSS para la marca de agua en la parte inferior izquierda
 st.markdown(
